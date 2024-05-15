@@ -3,9 +3,6 @@ import os
 import joblib
 import streamlit as st
 import google.generativeai as genai
-from dotenv import load_dotenv
-
-load_dotenv()
 
 if 'chat_id' not in st.session_state:
     st.session_state.chat_id = f'{time.time()}'
