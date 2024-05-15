@@ -4,8 +4,6 @@
 
 This project is a Streamlit-based chat application that interacts with the Gemini AI model, allowing users to engage in conversations with an artificial intelligence assistant. The application stores chat history, allowing users to revisit and continue previous conversations.
 
-<div align="center"><img src="docs/gemini-chatbot.gif" width="800"></div>
-
 ## Getting Started
 
 ### Dependencies
@@ -21,7 +19,7 @@ This code uses the following libraries:
 
 Follow these steps to set up and run the project:
 
-1. Create a virtual environment:
+1. Create a virtual environment (not creating a venv for hosting as it already a venv):
 ```
 python3 -m venv my_env
 source my_env/bin/activate 
